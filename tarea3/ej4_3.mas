@@ -1,0 +1,23 @@
+﻿/ Ejemplo 4.3
+/ Do Hyun Nam, A01025276
+
+Load X 
+Store Temp 
+JnS Subr 
+Store X 
+Load Y 
+Store Temp 
+JnS Subr 
+Store Y 
+Halt 
+
+X, Dec 20
+Y, Dec 48
+Temp, Dec 0
+Subr, Hex 0 
+
+Clear
+Load Temp
+Add Temp 
+JumpI Subr 
+END 

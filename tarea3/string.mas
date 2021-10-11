@@ -1,0 +1,39 @@
+﻿/ Ejercicio 1 -> Leer String
+/ Do Hyun Nam, A01025276
+
+loop, Input
+	Store numCode
+	Load numCode 
+	StoreI apuntador
+    LoadI apuntador
+    Output
+    
+    Load acum
+    Add one
+    Store acum
+   
+    Load apuntador
+    Add one
+    Store apuntador
+    
+    Load numCode
+    Skipcond 400
+    Jump loop
+	
+Load acum
+Subt one
+Store acum
+Output
+halt
+
+
+/ Apuntadores
+apuntador, hex 050  / apuntador principal
+
+/ Variables
+count, dec 6 / cantidad de numeros
+numCode, dec 0 / initial value
+acum, dec 1 
+
+/ Numeros
+one, dec 1

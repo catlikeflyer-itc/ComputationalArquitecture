@@ -1,0 +1,70 @@
+﻿/ Ejercicio 2 -> Y=X-2*A-3*B-4*C
+/ Do Hyun Nam, A01025276
+
+Clear
+Input
+Store X
+Input
+Store A
+Input
+Store B
+Input
+Store C
+
+mult1, Load DA / 2*A
+	Add A
+    Store DA
+    Load Ds
+    Subt One
+    Store Ds
+    Skipcond 400 / multiplicacion terminada ?
+    Jump mult1
+
+mult2, Load TB / 3*B
+	Add B
+    Store TB
+    Load Ts
+    Subt One
+    Store Ts
+    Skipcond 400 / multiplicacion terminada ?
+    Jump mult2
+    
+mult3, Load CC / 4*C
+	Add C
+    Store CC
+    Load Co
+    Subt One
+    Store Co
+    Skipcond 400 / multiplicacion terminada ?
+    Jump mult3
+
+/ hacer operacion
+Load Y
+Add X
+Store Y
+Subt DA
+Store Y
+Subt TB
+Store Y
+Subt CC
+Store Y
+Output
+Halt
+
+/ Variables (inicializar)
+Y, Dec 0
+X, Dec 0
+A, Dec 0
+B, Dec 0
+C, Dec 0
+
+/ Numeros (sirven como contadores)
+One, Dec 1 / uno
+Ds, Dec 2 / dos
+Ts, Dec 3 / tres
+Co, Dec 4 / cuatro
+
+/ resultados nombres(numero, variable)
+DA, Dec 0 / 2*A
+TB, Dec 0 / 3*B
+CC, Dec 0 / 4*C
