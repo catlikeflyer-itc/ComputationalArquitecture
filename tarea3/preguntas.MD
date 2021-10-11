@@ -35,3 +35,12 @@ La cantidad de bits que componen a un byte es de 8 bits (por lo general) y un wo
 
 
 32. Explain the steps of the fetch-decode-execute cycle.
+
+## Referencias
+BBC. (n.d.). What is the purpose of the CPU? - the CPU and the fetch-execute cycle - KS3 computer science revision - BBC bitesize. BBC News. Retrieved October 11, 2021, from https://www.bbc.co.uk/bitesize/guides/zws8d2p/revision/1. 
+
+Different classes of CPU registers. GeeksforGeeks. (2020, December 23). Retrieved October 11, 2021, from https://www.geeksforgeeks.org/different-classes-of-cpu-registers/. 
+
+Meyers, R. A. (2002). In Encyclopedia of Physical Science and Technology. Academic Press. 
+
+What is the function of CPU?, how CPU works? " CPU Basics. Digitalworld839.com. (2021, September 1). Retrieved October 11, 2021, from https://digitalworld839.com/what-is-the-function-of-cpu-and-how-cpu-works/. 
