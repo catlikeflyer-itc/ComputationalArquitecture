@@ -19,7 +19,7 @@ Loop, Load Sum
     Jump Loop
     Halt
     
-Addr, Hex 117
+Addr, Hex 017
 Next, Hex 0
 Num, Dec 5
 Sum, Dec 0
